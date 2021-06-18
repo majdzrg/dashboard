@@ -121,5 +121,22 @@
                 flex-grow: 1;
             }
         }
+        .card-small {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 120px;
+            width: 180px;
+            align-items: center;
+            top: 872;
+            border-radius: 5px;
+            background-color: #FED2E2;
+            color: $primary-color;
+            justify-content: space-between;
+            padding: {
+                left: 40px;
+                right: 40px;
+                 };
+         }      
     }
 }

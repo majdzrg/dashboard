@@ -156,7 +156,20 @@ export default function Dashboard() {
                 </div>
             </div>
             <h4>The most requested Area</h4>
-            <div className="row"></div>
+            <div className="row">
+            <div className="card">
+                    <div className="card-small">Language </div>
+                </div>
+                <div className="card">
+                    <div className="card-small">Computer </div>
+                </div>
+                <div className="card">
+                    <div className="card-small">Music </div>
+                </div>
+                <div className="card">
+                    <div className="card-small">Design </div>
+                </div>
+            </div>
         </div>
     )
 }
